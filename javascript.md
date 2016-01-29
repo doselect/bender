@@ -1,34 +1,17 @@
-## JavaScript code conventions
+## JavaScript code conventios
 
-### Indentation
-  
-Do:
-
-- 2 spaces indent
-- No semi colons
-
-Dont:
-
-- Don't mix tabs and spaces
-- Don't use comma-first coding style
-
-### Function declarations
-
-Use:
-
-```javascript
-var myfunc = function (x, y) {
-    return x + y
-}
-```
-
-### Variables
-
-- Don't declare globals
-- If a variable needs to be used across methods, assign it as a property of the constructor
-
-### Whitespaces and newlines
-
+- **2 spaces** – for indentation
+- **Don't mix tabs and spaces**
+- **Single quotes for strings** – except to avoid escaping
+- **No unused variables**
+- **No semicolons**
+- **Never start a line with `(` or `[`**
+  - This is the **only** gotcha with omitting semicolons
+- **Space after keywords** `if (condition) { ... }`
+- **Space after function name** `function name (arg) { ... }`
+- Always use `===` instead of `==` – but `obj == null` is allowed to check `null || undefined`
+- Always handle the node.js `err` function parameter
+- **Don't declare globals**
 - Do not, at whatever cost, leave trailing whitespaces. Fix your editor if needed
 - Keep newline at EOF
 - Use newlines liberally to visually separate logical blocks of code
