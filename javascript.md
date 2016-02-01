@@ -1,4 +1,4 @@
-## JavaScript code conventios
+## JavaScript
 
 - **2 spaces** – for indentation
 - **Don't mix tabs and spaces**
