@@ -15,3 +15,5 @@
 - Do not, at whatever cost, leave trailing whitespaces. Fix your editor if needed
 - Keep newline at EOF
 - Use newlines liberally to visually separate logical blocks of code
+
+> Run `npm test` before committing. If it throws any error, fix it!
