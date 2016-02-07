@@ -184,6 +184,15 @@ $ git push origin :hotfix-id                        // deletes the remote branch
 $ git diff --check
 ```
 
+## Tags
+
+* Whenever you merge `master` to `stable`, tag it with current version
+
+```
+git tag -a vX.X.X -m "Tag message"
+git push origin --tags
+```
+
 ## Commit Messages
 
 As a general rule, your commit message should start with a single line that's no more than about 50 characters and that describes the commit concisely. If you feel the need for more detailed explanations, create a blank line, followed by a more detailed explanation.
