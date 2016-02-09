@@ -186,10 +186,12 @@ $ git diff --check
 
 ## Tags
 
-* Whenever you merge `master` to `stable`, tag it with current version
+* After you merge `master` with `stable`, tag it with current version and changelog
+
+> We use semantic versioning - [SemVer](http://semver.org/)
 
 ```
-git tag -a vX.X.X -m "Tag message"
+git tag -a vX.X.X -m "Changelog"
 git push origin --tags
 ```
 
