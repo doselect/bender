@@ -13,7 +13,7 @@ if [ -f "$file" ]
   echo "Current version: $version"
   IFS='.' read -ra POSITION <<< "$version"
   
-  echo "This commit is a major (or) minor (or) patch? Reply with '1' for Major | '2' for Minor | '3' for Patch"
+  echo "This commit is a major (or) minor (or) patch? Reply with '1' for Major | '2' for Minor | '3' for Patch | '4' to skip"
   
   function readver {
   read v
@@ -32,6 +32,9 @@ if [ -f "$file" ]
     then
     echo "[OK]"
     ((POSITION[2]++))
+  elif [[ $v -eq 4 ]]
+    then
+    echo "Skipping versioning."
   else
     echo "Meh! You can't leave it empty!"
       readver
