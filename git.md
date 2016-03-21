@@ -212,6 +212,8 @@ To automatically close an issue by using a commit message, include "Closes" in t
 
     [Closes HED-14] Torpedoes now sufficiently powered
 
+You may also use `[Upgrade]` `[Ignore]` `[Release]`
+
 ## Message Template
 
 Here is a template to use as guideline for commit messages:
