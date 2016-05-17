@@ -201,16 +201,16 @@ As a general rule, your commit message should start with a single line that's no
 
 For consistency, try and use the imperative present tense when creating a message. Examples:
 
-* Use "Adding tests for" instead of "I added tests for"
-* Use "Changing x to y" instead of "Changed x to y"
+* Use "Add tests for" instead of "I added tests for"
+* Use "Change x to y" instead of "Changed x to y"
 
 In order to associate commits with JIRA Issue, the commit message should indicate one or more issue number and (optionally) a state change for the story. The commit message should start with square brackets containing a hash mark followed by the issue number. For example:
 
-    [HED-14] Diverting power from warp drive to torpedoes
+    [HED-14] Diverte power from warp drive to torpedoes
 
-To automatically close an issue by using a commit message, include "Closes" in the square brackets in addition to the issue number. For example:
+To automatically close an issue by using a commit message, include "Fix" in the square brackets in addition to the issue number. For example:
 
-    [Closes HED-14] Torpedoes now sufficiently powered
+    [Fix HED-14] Torpedoes now sufficiently powered
 
 You may also use `[Upgrade]` `[Ignore]` `[Release]`
 
