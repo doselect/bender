@@ -12,5 +12,8 @@ Javascript coding conventions / standards / guidelines :
 Git Workflow / best practices:
 [Git](git.md)
 
-Golang best practices and style guide
+Golang best practices and style guide :
 [Golang](golang.md)
+
+Creating releases in GitHub project / app :
+[Releases](releases.md)
